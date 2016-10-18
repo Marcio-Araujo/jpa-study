@@ -10,7 +10,7 @@ public class JPAUtil {
 	private static JPAUtil instance;
 	
 	private JPAUtil(){
-		this.factory= Persistence.createEntityManagerFactory("jpa-study");
+		this.factory= Persistence.createEntityManagerFactory("REVJPA");
 	}
 	
 	public static synchronized JPAUtil getInstance(){
